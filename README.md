@@ -16,7 +16,7 @@ Below is the project walk-through:
 
 5. The creation of Data Collection Rules (DCRs) in Microsoft Azure are a feature of Azure Monitor that allows one to define how data is collected from various sources, such as virtual machines, applications, and services, and sent to Azure Monitor for analysis and visualization. Its purpose is to centralize data collection.
 <img width="1250" alt="log analytics workspace (LAWS) windows event logs" src="https://github.com/user-attachments/assets/2d7153db-6038-493d-8ea8-d1df5e49f303">
-<img width="1259" alt="LAWS windows event logs custom" src="https://github.com/user-attachments/assets/0e1c6454-c601-4c6c-8d73-2a6a3881f0a4">
+<img width="1255" alt="law attack vm event logs" src="https://github.com/user-attachments/assets/a8792daa-1e66-47dd-abe4-d683a3a4a112">
 <img width="1244" alt="data collection rules" src="https://github.com/user-attachments/assets/acb69c78-ca81-46ec-a524-ef747da85b4b">
 By collecting and storing log data in Log Analytics allows us to use Sentinel to monitor, track, and manage your Azure environment.
 <img width="821" alt="dcr data source windows" src="https://github.com/user-attachments/assets/d2167e29-c729-46f9-b153-07092f263c4d">
