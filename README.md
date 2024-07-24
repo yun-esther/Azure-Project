@@ -51,3 +51,6 @@ Above, we created data collection rules for both WindowsVM and LinuxVM, creating
 ![SOC subnet](https://github.com/user-attachments/assets/34e409fb-9605-436f-bb94-61241f92641d)
 A virtual network (VNet) is a network or environment that can be used to run Virtual Machines and applications in the cloud. When a VNet is created, the services and VMs within the Azure network interact securely with each other. It allows you to create a private space in the Azure cloud. Components of a VNet comprises of subnets, routing, and network security groups. 
 
+
+![perimeter external firewall](https://github.com/user-attachments/assets/75a863e7-9818-4a2f-92c7-eaf0ff8a27e6)
+The Azure Firewall is a fully managed, scalable, and highly available service that provides a perimeter defense for Azure resources. It is a cloud-native firewall that is easily integrated with Azure Virtual Networks (VNets) to control and filter incoming and outgoing traffic. The Azure Firewall filters traffic, inspects traffic, applies rule-based filtering, and provides threat protection.
