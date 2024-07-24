@@ -63,5 +63,5 @@ This diagram shows us interconnected Azure regions with various Virtual Machines
 
 ![Private endpoint storage](https://github.com/user-attachments/assets/9950befb-7abe-4f67-b98c-ce3fae33f9de)
 
-The Private Endpoint for Azure storage is a network interface that privately and securely connects to an Azure storage service. I assigned a private IP address to the private endpoint, which is used to access the Azure storage service. 
+The Private Endpoint for Azure storage is a network interface that privately and securely connects to an Azure storage service. I assigned a private IP address to the private endpoint, which is used to access the grapejuices Azure storage service. 
 
