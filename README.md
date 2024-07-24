@@ -39,3 +39,8 @@ Above, we created data collection rules for both WindowsVM and LinuxVM, creating
 <img width="1269" alt="grapejuices config" src="https://github.com/user-attachments/assets/f670539d-28ef-4cad-8951-a708cb5bc4c9">
 <img width="1262" alt="grapejuices 2" src="https://github.com/user-attachments/assets/2e107237-f0e2-4dc1-8d8c-f1d16d17425d">
 
+8. Next, I set up a Watchlist in Microsoft Sentinel. A Watchlist is a list of entities, such as IP addresses, domains, or users, that are of interest to security analysts and threat hunters. Watchlists are used to identify and track potential security threats, and to alert on suspicious activity related to these entities. Watchlists provide real time monitoring, alerting and notification, and analytics and visualization. This improves threat detection, enhances incident response, and streamlines threat hunting. The creation of geoip watchlist tracks and monitors IP addressses based on their geographical locations.
+<img width="1242" alt="watchlist" src="https://github.com/user-attachments/assets/90be0f01-68d9-4413-a0c8-f1c7efbd2218">
+
+
+9. 
