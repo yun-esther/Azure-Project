@@ -47,4 +47,7 @@ Above, we created data collection rules for both WindowsVM and LinuxVM, creating
 9. Network Watcher is a network monitoring and diagnostic service in Microsoft Azure that provides visibility into Azure network resources and traffic. The Network Watcher topology is a graphical representation of the network infrastructure and resources in Azure, which helps network administrators and security professionals to understand the network architecture, identify potential security risks, and troubleshoot network issues. Currently, our virtual network resources are deployed in East US.
 ![region](https://github.com/user-attachments/assets/613fad98-95dd-4a0d-bd41-8ca8028141a9)
 
-    
+
+![SOC subnet](https://github.com/user-attachments/assets/34e409fb-9605-436f-bb94-61241f92641d)
+A virtual network (VNet) is a network or environment that can be used to run Virtual Machines and applications in the cloud. When a VNet is created, the services and VMs within the Azure network interact securely with each other. It allows you to create a private space in the Azure cloud. Components of a VNet comprises of subnets, routing, and network security groups. 
+
