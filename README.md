@@ -5,5 +5,10 @@ The Azure Honeypot & Sentinel SIEM project is a comprehensive cybersecurity init
 Below is the project walk-through:
 
 
-1. I created a Windows VM and a Linux VM in Microsoft Azure
-2. 
+1. I created a WindowsVM and a LinuxVM in Microsoft Azure
+   
+2. Then, I created a resource group named 'RG-SOC'. For each VM, I assigned them RG-SOC resource group.
+   
+3. After the creation of the VMs, I configured the Network security groups and edited the inbound security rules for both WindowsVM and LinuxVM and changed the destination port ranges to all(*). I then turned off the firewall in the WindowsVM.
+
+5. Next, I went into Microsoft Sentinel 
