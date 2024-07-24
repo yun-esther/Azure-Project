@@ -65,3 +65,8 @@ This diagram shows us interconnected Azure regions with various Virtual Machines
 
 The Private Endpoint for Azure storage is a network interface that privately and securely connects to an Azure storage service. I assigned a private IP address to the private endpoint, which is used to access the grapejuices Azure storage service. 
 
+
+
+10. Azure SIEM (Security Information and Event Management), also known as Microsoft Sentinel is a cloud-native SIEM solution that provides advanced threat detection, incident response, and security analytics capabilities. It helps organizations detect, respond to, and prevent security threats in real-time. Key features include: Real-Time threat detection, Incident response, Security analytics, Integration with Azure services, and Multi-Cloud and Hybrid support.
+![sentinel analytics- Alerts (SIEM)](https://github.com/user-attachments/assets/4b893023-2f71-4a5d-9bd2-4a13d7e79a4d)
+
