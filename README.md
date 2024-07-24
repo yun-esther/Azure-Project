@@ -23,6 +23,7 @@ Below is the project walk-through:
 <img width="1244" alt="data collection rules" src="https://github.com/user-attachments/assets/acb69c78-ca81-46ec-a524-ef747da85b4b">
 
 By collecting and storing log data in Log Analytics allows us to use Sentinel to monitor, track, and manage your Azure environment.
+
 <img width="821" alt="dcr data source windows" src="https://github.com/user-attachments/assets/d2167e29-c729-46f9-b153-07092f263c4d">
 <img width="875" alt="dcr data source attackvm" src="https://github.com/user-attachments/assets/e1e1528a-b29f-4276-9c85-09bda42485bb">
 
