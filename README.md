@@ -30,6 +30,8 @@ Collecting and storing log data in Log Analytics allows us to use Sentinel to mo
 
 
 Above, we created data collection rules for both WindowsVM and LinuxVM, creating Windows Event Logs and Syslog respectively. These two popular logging mechanisms are used to collect and store log data from various sources.
+
 Windows Event Logs are divided into three main categories: (1) Application Logs (2) System Logs (3) Security Logs
+
 Syslogs are formatted in a specific way and provides the following information: (1) Facility (2) Severity (3) Timestamp (4) Message
 
