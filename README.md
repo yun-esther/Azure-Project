@@ -12,6 +12,7 @@ Below is the project walk-through:
 3. After the creation of the VMs, I configured the Network security groups and edited the inbound security rules for both WindowsVM and LinuxVM and changed the destination port ranges to all(*). I then turned off the firewall in the WindowsVM.
 
 4. The creation of a private endpoint, 'PE-akv' in Microsoft Azure allows me to connect to my Azure resources securely and privately from my virtual network, 'SOC-VNET', that connects directly to the Azure Key Vault, 'KeyVaultcreated'. This is achieved by using private IP addresses from the virtual network to connect to your resources without being exposed to the public.
+![Keyvault created](https://github.com/user-attachments/assets/d37290d7-abcd-42bf-a420-cb3ba425ee41)
 <img width="1260" alt="creation of private endpoint" src="https://github.com/user-attachments/assets/4cab9822-38ea-4aff-96cd-a6b58d80c54c">
 <img width="981" alt="creation of private endpoint 2" src="https://github.com/user-attachments/assets/ad247d95-1a36-417e-89fa-75702b4d5f9e">
 
