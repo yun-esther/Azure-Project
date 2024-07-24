@@ -14,6 +14,7 @@ Below is the project walk-through:
 4. The creation of a private endpoint, 'PE-akv' in Microsoft Azure allows me to connect to my Azure resources securely and privately from my virtual network, 'SOC-VNET', that connects directly to the Azure Key Vault, 'KeyVaultcreated'. This is achieved by using private IP addresses from the virtual network to connect to your resources without being exposed to the public.
 <img width="1260" alt="creation of private endpoint" src="https://github.com/user-attachments/assets/4cab9822-38ea-4aff-96cd-a6b58d80c54c">
 <img width="981" alt="creation of private endpoint 2" src="https://github.com/user-attachments/assets/ad247d95-1a36-417e-89fa-75702b4d5f9e">
+
 ![Private endpoint key vault](https://github.com/user-attachments/assets/b03c4628-edfb-48e0-aaea-1e194780064f)
 
 6. The creation of Data Collection Rules (DCRs) in Microsoft Azure are a feature of Azure Monitor that allows one to define how data is collected from various sources, such as virtual machines, applications, and services, and sent to Azure Monitor for analysis and visualization. Its purpose is to centralize data collection.
