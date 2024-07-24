@@ -61,4 +61,6 @@ The Azure Firewall is a fully managed, scalable, and highly available service th
 This diagram shows us interconnected Azure regions with various Virtual Machines and subnets. This hub-and-spoke network architecture allows different network segments to communicate with each other securely.
 
 
+![Private endpoint storage](https://github.com/user-attachments/assets/9950befb-7abe-4f67-b98c-ce3fae33f9de)
+The Private Endpoint for Azure storage is a network interface that privately and securely connects to an Azure storage service. I assigned a private IP address to the private endpoint, which is used to access the Azure storage service. 
 
