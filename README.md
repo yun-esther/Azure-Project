@@ -44,7 +44,7 @@ Above, we created data collection rules for both WindowsVM and LinuxVM, creating
 <img width="1242" alt="watchlist" src="https://github.com/user-attachments/assets/90be0f01-68d9-4413-a0c8-f1c7efbd2218">
 
 
-9. Network Watcher is a network monitoring and diagnostic service in Microsoft Azure that provides visibility into Azure network resources and traffic. The Network Watcher topology is a graphical representation of the network infrastructure and resources in Azure, which helps network administrators and security professionals to understand the network architecture, identify potential security risks, and troubleshoot network issues.
+9. Network Watcher is a network monitoring and diagnostic service in Microsoft Azure that provides visibility into Azure network resources and traffic. The Network Watcher topology is a graphical representation of the network infrastructure and resources in Azure, which helps network administrators and security professionals to understand the network architecture, identify potential security risks, and troubleshoot network issues. Currently, our virtual network resources are deployed in East US.
 ![region](https://github.com/user-attachments/assets/613fad98-95dd-4a0d-bd41-8ca8028141a9)
 
     
