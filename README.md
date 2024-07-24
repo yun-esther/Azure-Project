@@ -54,3 +54,10 @@ A virtual network (VNet) is a network or environment that can be used to run Vir
 
 ![perimeter external firewall](https://github.com/user-attachments/assets/75a863e7-9818-4a2f-92c7-eaf0ff8a27e6)
 The Azure Firewall is a fully managed, scalable, and highly available service that provides a perimeter defense for Azure resources. It is a cloud-native firewall that is easily integrated with Azure Virtual Networks (VNets) to control and filter incoming and outgoing traffic. The Azure Firewall filters traffic, inspects traffic, applies rule-based filtering, and provides threat protection.
+
+
+![external firewall protecting SOC:defense in depth](https://github.com/user-attachments/assets/ed26e8dc-7021-4c7f-ae30-6c34ae7a12e6)
+This diagram shows us interconnected Azure regions with various Virtual Machines and subnets. This hub-and-spoke network architecture allows different network segments to communicate with each other securely.
+
+
+
