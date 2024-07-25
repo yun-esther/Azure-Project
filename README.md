@@ -84,4 +84,8 @@ This Microsoft SQL Threats Workbook shows security threats that are related to M
 
 
 ![Screen Shot 2024-04-15 at 8 39 56 PM](https://github.com/user-attachments/assets/6bee495d-9594-4078-b7f2-e5521155ed44)
-This Windows Remote Desktop Protocol (RDP) Threats Workbook shows security threats that are related to failed Windows RDP authentication attempts from across the globe. We can see that most of the brute-force attempts originated from Spain.
+This Windows Remote Desktop Protocol (RDP) Threats Workbook shows security threats that are related to failed Windows RDP authentication attempts from across the globe. We can see that most of the brute-force attempts originated from Spain and Canada.
+
+
+![Screen Shot 2024-04-15 at 8 40 27 PM](https://github.com/user-attachments/assets/f24dfbb6-8522-4abd-864d-1c88fd801eb0)
+This Network Security Group (NSG) Threats Workbook shows security events where malicious traffic or networks were allowed into our networks and systems. The dashboard shows where the malicious activities originated from across the globe, allowing us to identify sources and patterns, and this in turn helps prioritize remediation efforts.
