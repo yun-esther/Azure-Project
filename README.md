@@ -100,7 +100,7 @@ This Network Security Group (NSG) Threats Workbook shows security events where m
 12. The final step is to secure the environment.
     
    a. Go into Network Security Groups and delete the allow any custom inbound security rule.
-   
    b. Go into Windows VM and turn on the firewalls in Windows Defender Firewall.
-   
-   c. 
+   c. Enable NIST 800-53 compliance.
+
+   The NIST SP 800-53 Rev. 5 is a widely recognized and respected security standard published by the National Institute of Standards and Technology (NIST). It provides guidelines for implementing and managing information security controls within an organization. It provides a comprehensive catalog of security and privacy controls for federal information systems and organizations, and is a widely adopted standard for managing information security risks and protecting sensitive data. Benefits include compliance, risk management, and improved security. Organizations that handle sensitive information should consider adopting this standard to improve their overall security posture.
