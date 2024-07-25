@@ -98,6 +98,9 @@ This Network Security Group (NSG) Threats Workbook shows security events where m
 
 
 12. The final step is to secure the environment.
+    
    a. Go into Network Security Groups and delete the allow any custom inbound security rule.
+   
    b. Go into Windows VM and turn on the firewalls in Windows Defender Firewall.
+   
    c. 
