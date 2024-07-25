@@ -76,11 +76,12 @@ The Private Endpoint for Azure storage is a network interface that privately and
 10. Workbooks in Microsoft Azure are a powerful tool for visualizing and monitoring data. They allow users to create custom dashboards that provide insights into their data, enabling them to identify trends, patterns, and anomalies. Its primary purpose is to visualize, monitor, and analyze data. Below are dashboards that show different types of security threats and their originations.
 
 ![Screen Shot 2024-04-15 at 8 40 50 PM](https://github.com/user-attachments/assets/dea8b363-b041-4b89-901d-a43496c474cf)
-
 This Linux SSH Threats Workbook shows security threats that are related to Linux Secureshell activities, showing failed SSH authentication attempts from across the world. We can see that a lot of the authentication attempts came from Australia.
 
 
 ![Screen Shot 2024-04-15 at 8 40 13 PM](https://github.com/user-attachments/assets/582663bc-0d3d-4ed9-babc-f38a35821648)
-
 This Microsoft SQL Threats Workbook shows security threats that are related to Microsoft SQL Server activities, showing failed authentication attempts from across the world. This dashboard shows brute-force attacks targeting Microsoft SQL Server installations from all over the globe, with most of the attacks originating from the U.S East Coast and Spain.
 
+
+![Screen Shot 2024-04-15 at 8 39 56 PM](https://github.com/user-attachments/assets/6bee495d-9594-4078-b7f2-e5521155ed44)
+This Windows Remote Desktop Protocol (RDP) Threats Workbook shows security threats that are related to failed Windows RDP authentication attempts from across the globe. We can see that most of the brute-force attempts originated from Spain.
