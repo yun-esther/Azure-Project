@@ -77,4 +77,10 @@ The Private Endpoint for Azure storage is a network interface that privately and
 
 ![Screen Shot 2024-04-15 at 8 40 50 PM](https://github.com/user-attachments/assets/dea8b363-b041-4b89-901d-a43496c474cf)
 
-This Linux SSH Threats Workbook shows security threats that are related to Linux Secureshell activities, showing failed SSH authentication attempts from across the world. 
+This Linux SSH Threats Workbook shows security threats that are related to Linux Secureshell activities, showing failed SSH authentication attempts from across the world. We can see that a lot of the authentication attempts came from Australia.
+
+
+![Screen Shot 2024-04-15 at 8 40 13 PM](https://github.com/user-attachments/assets/582663bc-0d3d-4ed9-babc-f38a35821648)
+
+This Microsoft SQL Threats Workbook shows security threats that are related to Microsoft SQL Server activities, showing failed authentication attempts from across the world. This dashboard shows brute-force attacks targeting Microsoft SQL Server installations from all over the globe, with most of the attacks originating from the U.S East Coast and Spain.
+
