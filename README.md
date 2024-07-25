@@ -74,6 +74,7 @@ The Private Endpoint for Azure storage is a network interface that privately and
 
 
 10. Workbooks in Microsoft Azure are a powerful tool for visualizing and monitoring data. They allow users to create custom dashboards that provide insights into their data, enabling them to identify trends, patterns, and anomalies. Its primary purpose is to visualize, monitor, and analyze data. Below are dashboards that show different types of security threats and their originations.
+    Geo Locations provide geographical context to the data, allowing us to visualize where threats are coming from. This enhances the security strategy, allowing for quicker response to threats, and a more proactive approach. The combination of workbooks and geo locations in a honeynet is a very powerful tool for threat intelligence and incident response. 
 
 ![Screen Shot 2024-04-15 at 8 40 50 PM](https://github.com/user-attachments/assets/dea8b363-b041-4b89-901d-a43496c474cf)
 This Linux SSH Threats Workbook shows security threats that are related to Linux Secureshell activities, showing failed SSH authentication attempts from across the world. We can see that a lot of the authentication attempts came from Australia.
