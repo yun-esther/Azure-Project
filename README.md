@@ -45,7 +45,12 @@ Above, we created data collection rules for both WindowsVM and LinuxVM, creating
 <img width="1242" alt="watchlist" src="https://github.com/user-attachments/assets/90be0f01-68d9-4413-a0c8-f1c7efbd2218">
 
 
-8. Network Watcher is a network monitoring and diagnostic service in Microsoft Azure that provides visibility into Azure network resources and traffic. The Network Watcher topology is a graphical representation of the network infrastructure and resources in Azure, which helps network administrators and security professionals to understand the network architecture, identify potential security risks, and troubleshoot network issues. Currently, our virtual network resources are deployed in East US.
+8. Microsoft Sentinel Fusion rules are a type of analytics rule that uses a correlation engine based on scalable machine learning algorithms to automatically detect multistage attacks, also known as advanced persistent threats (APTs). These rules identify combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain, and generate incidents that would otherwise be difficult to catch. They correlate multiple signals from various products, such as Microsoft Defender for Cloud Apps, Microsoft Entra ID Protection, and others, to identify potential threats. 
+![Sentinel Fusion rule](https://github.com/user-attachments/assets/4f10b9b5-2823-43fa-888c-75cce5297c20)
+
+
+   
+9. Network Watcher is a network monitoring and diagnostic service in Microsoft Azure that provides visibility into Azure network resources and traffic. The Network Watcher topology is a graphical representation of the network infrastructure and resources in Azure, which helps network administrators and security professionals to understand the network architecture, identify potential security risks, and troubleshoot network issues. Currently, our virtual network resources are deployed in East US.
 ![region](https://github.com/user-attachments/assets/613fad98-95dd-4a0d-bd41-8ca8028141a9)
 
 
@@ -67,13 +72,13 @@ The Private Endpoint for Azure storage is a network interface that privately and
 
 
 
-9. Azure SIEM (Security Information and Event Management), also known as Microsoft Sentinel is a cloud-native SIEM solution that provides advanced threat detection, incident response, and security analytics capabilities. It helps organizations detect, respond to, and prevent security threats in real-time. Key features include: Real-Time threat detection, Incident response, Security analytics, Integration with Azure services, and Multi-Cloud and Hybrid support. 
+10. Azure SIEM (Security Information and Event Management), also known as Microsoft Sentinel is a cloud-native SIEM solution that provides advanced threat detection, incident response, and security analytics capabilities. It helps organizations detect, respond to, and prevent security threats in real-time. Key features include: Real-Time threat detection, Incident response, Security analytics, Integration with Azure services, and Multi-Cloud and Hybrid support. 
     
 ![sentinel analytics- Alerts (SIEM)](https://github.com/user-attachments/assets/4b893023-2f71-4a5d-9bd2-4a13d7e79a4d)
 
 
 
-10. Workbooks in Microsoft Azure are a powerful tool for visualizing and monitoring data. They allow users to create custom dashboards that provide insights into their data, enabling them to identify trends, patterns, and anomalies. Its primary purpose is to visualize, monitor, and analyze data. Below are dashboards that show different types of security threats and their originations.
+11. Workbooks in Microsoft Azure are a powerful tool for visualizing and monitoring data. They allow users to create custom dashboards that provide insights into their data, enabling them to identify trends, patterns, and anomalies. Its primary purpose is to visualize, monitor, and analyze data. Below are dashboards that show different types of security threats and their originations.
     Geo Locations provide geographical context to the data, allowing us to visualize where threats are coming from. This enhances the security strategy, allowing for quicker response to threats, and a more proactive approach. The combination of workbooks and geo locations in a honeynet is a very powerful tool for threat intelligence and incident response. 
 
 ![Screen Shot 2024-04-15 at 8 40 50 PM](https://github.com/user-attachments/assets/dea8b363-b041-4b89-901d-a43496c474cf)
