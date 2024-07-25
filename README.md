@@ -95,3 +95,9 @@ This Windows Remote Desktop Protocol (RDP) Threats Workbook shows security threa
 
 ![Screen Shot 2024-04-15 at 8 40 27 PM](https://github.com/user-attachments/assets/f24dfbb6-8522-4abd-864d-1c88fd801eb0)
 This Network Security Group (NSG) Threats Workbook shows security events where malicious traffic or networks were allowed into our networks and systems. The dashboard shows where the malicious activities originated from across the globe, allowing us to identify sources and patterns, and this in turn helps prioritize remediation efforts.
+
+
+12. The final step is to secure the environment.
+   a. Go into Network Security Groups and delete the allow any custom inbound security rule.
+   b. Go into Windows VM and turn on the firewalls in Windows Defender Firewall.
+   c. 
