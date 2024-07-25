@@ -106,3 +106,8 @@ This Network Security Group (NSG) Threats Workbook shows security events where m
    c. Enable NIST 800-53 compliance.
 
    The NIST SP 800-53 Rev. 5 is a widely recognized and respected security standard published by the National Institute of Standards and Technology (NIST). It provides guidelines for implementing and managing information security controls within an organization. It provides a comprehensive catalog of security and privacy controls for federal information systems and organizations, and is a widely adopted standard for managing information security risks and protecting sensitive data. Benefits include compliance, risk management, and improved security. Organizations that handle sensitive information should consider adopting this standard to improve their overall security posture.
+
+
+13. Throughout this project, I have documented the security posture and metrics before and after securing the environment.
+<img width="414" alt="Screen Shot 2024-07-25 at 6 04 48 PM" src="https://github.com/user-attachments/assets/a31c46ca-98bb-434d-9a39-69b0db1c28d7">
+
