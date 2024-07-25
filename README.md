@@ -18,7 +18,7 @@ Below is the project walk-through:
 
 ![Private endpoint key vault](https://github.com/user-attachments/assets/b03c4628-edfb-48e0-aaea-1e194780064f)
 
-6. The creation of Data Collection Rules (DCRs) in Microsoft Azure are a feature of Azure Monitor that allows one to define how data is collected from various sources, such as virtual machines, applications, and services, and sent to Azure Monitor for analysis and visualization. Its purpose is to centralize data collection.
+5. The creation of Data Collection Rules (DCRs) in Microsoft Azure are a feature of Azure Monitor that allows one to define how data is collected from various sources, such as virtual machines, applications, and services, and sent to Azure Monitor for analysis and visualization. Its purpose is to centralize data collection.
 <img width="1250" alt="log analytics workspace (LAWS) windows event logs" src="https://github.com/user-attachments/assets/2d7153db-6038-493d-8ea8-d1df5e49f303">
 <img width="1255" alt="law attack vm event logs" src="https://github.com/user-attachments/assets/a8792daa-1e66-47dd-abe4-d683a3a4a112">
 <img width="1244" alt="data collection rules" src="https://github.com/user-attachments/assets/acb69c78-ca81-46ec-a524-ef747da85b4b">
@@ -36,16 +36,16 @@ Above, we created data collection rules for both WindowsVM and LinuxVM, creating
 -Syslogs are formatted in a specific way and provides the following information: (1) Facility (2) Severity (3) Timestamp (4) Message
 
 
-7. The Azure Blob Storage allows you to store Windows Event Logs and Syslog data.
+6. The Azure Blob Storage allows you to store Windows Event Logs and Syslog data.
 <img width="1269" alt="grapejuices config" src="https://github.com/user-attachments/assets/f670539d-28ef-4cad-8951-a708cb5bc4c9">
 <img width="1262" alt="grapejuices 2" src="https://github.com/user-attachments/assets/2e107237-f0e2-4dc1-8d8c-f1d16d17425d">
 
 
-8. Next, I set up a Watchlist in Microsoft Sentinel. A Watchlist is a list of entities, such as IP addresses, domains, or users, that are of interest to security analysts and threat hunters. Watchlists are used to identify and track potential security threats, and to alert on suspicious activity related to these entities. Watchlists provide real time monitoring, alerting and notification, and analytics and visualization. This improves threat detection, enhances incident response, and streamlines threat hunting. The 'geoip' watchlist will track and monitor IP addressses based on their geographical locations.
+7. Next, I set up a Watchlist in Microsoft Sentinel. A Watchlist is a list of entities, such as IP addresses, domains, or users, that are of interest to security analysts and threat hunters. Watchlists are used to identify and track potential security threats, and to alert on suspicious activity related to these entities. Watchlists provide real time monitoring, alerting and notification, and analytics and visualization. This improves threat detection, enhances incident response, and streamlines threat hunting. The 'geoip' watchlist will track and monitor IP addressses based on their geographical locations.
 <img width="1242" alt="watchlist" src="https://github.com/user-attachments/assets/90be0f01-68d9-4413-a0c8-f1c7efbd2218">
 
 
-9. Network Watcher is a network monitoring and diagnostic service in Microsoft Azure that provides visibility into Azure network resources and traffic. The Network Watcher topology is a graphical representation of the network infrastructure and resources in Azure, which helps network administrators and security professionals to understand the network architecture, identify potential security risks, and troubleshoot network issues. Currently, our virtual network resources are deployed in East US.
+8. Network Watcher is a network monitoring and diagnostic service in Microsoft Azure that provides visibility into Azure network resources and traffic. The Network Watcher topology is a graphical representation of the network infrastructure and resources in Azure, which helps network administrators and security professionals to understand the network architecture, identify potential security risks, and troubleshoot network issues. Currently, our virtual network resources are deployed in East US.
 ![region](https://github.com/user-attachments/assets/613fad98-95dd-4a0d-bd41-8ca8028141a9)
 
 
@@ -67,7 +67,14 @@ The Private Endpoint for Azure storage is a network interface that privately and
 
 
 
-10. Azure SIEM (Security Information and Event Management), also known as Microsoft Sentinel is a cloud-native SIEM solution that provides advanced threat detection, incident response, and security analytics capabilities. It helps organizations detect, respond to, and prevent security threats in real-time. Key features include: Real-Time threat detection, Incident response, Security analytics, Integration with Azure services, and Multi-Cloud and Hybrid support. 
+9. Azure SIEM (Security Information and Event Management), also known as Microsoft Sentinel is a cloud-native SIEM solution that provides advanced threat detection, incident response, and security analytics capabilities. It helps organizations detect, respond to, and prevent security threats in real-time. Key features include: Real-Time threat detection, Incident response, Security analytics, Integration with Azure services, and Multi-Cloud and Hybrid support. 
     
 ![sentinel analytics- Alerts (SIEM)](https://github.com/user-attachments/assets/4b893023-2f71-4a5d-9bd2-4a13d7e79a4d)
 
+
+
+10. Workbooks in Microsoft Azure are a powerful tool for visualizing and monitoring data. They allow users to create custom dashboards that provide insights into their data, enabling them to identify trends, patterns, and anomalies. Its primary purpose is to visualize, monitor, and analyze data. Below are dashboards that show different types of security threats and their originations.
+
+![Screen Shot 2024-04-15 at 8 40 50 PM](https://github.com/user-attachments/assets/dea8b363-b041-4b89-901d-a43496c474cf)
+
+This Linux SSH Threats Workbook shows security threats that are related to Linux Secureshell activities, showing failed SSH authentication attempts from across the world. 
