@@ -77,8 +77,15 @@ The Private Endpoint for Azure storage is a network interface that privately and
 ![sentinel analytics- Alerts (SIEM)](https://github.com/user-attachments/assets/4b893023-2f71-4a5d-9bd2-4a13d7e79a4d)
 
 
+11. I investigated one of the custom brute-force attempt alert in Windows, and was able to check the potentially malicious IP address on the open source websites, AbuseIPDB followed by GreyNoise. I closed this incident after identifying that the IP address is a BenignPositive - Suspicious but expected. It did not pose as a risk to the organization, however, I blocked it at the external firewall just to be safe.
+<img width="1266" alt="incident response windows closed alert" src="https://github.com/user-attachments/assets/cfbc6ae7-c24a-485a-a453-39d18404e349">
 
-11. Workbooks in Microsoft Azure are a powerful tool for visualizing and monitoring data. They allow users to create custom dashboards that provide insights into their data, enabling them to identify trends, patterns, and anomalies. Its primary purpose is to visualize, monitor, and analyze data. Below are dashboards that show different types of security threats and their originations.
+
+12. I also investigated the custom brute-force attempt alert found in the Linux Syslog. After checking the IP addresses on AbuseIPDB and GreyNoise, I confirmed these IP addresses to be malicious, a TruePositive. These addresses have been added to the 'block list' on the external firewall as per our SOC playbook.
+<img width="639" alt="incident response linux closed alert" src="https://github.com/user-attachments/assets/7c8effce-b834-4697-a9f2-8f13d8e3c2c8">
+
+
+13. Workbooks in Microsoft Azure are a powerful tool for visualizing and monitoring data. They allow users to create custom dashboards that provide insights into their data, enabling them to identify trends, patterns, and anomalies. Its primary purpose is to visualize, monitor, and analyze data. Below are dashboards that show different types of security threats and their originations.
     Geo Locations provide geographical context to the data, allowing us to visualize where threats are coming from. This enhances the security strategy, allowing for quicker response to threats, and a more proactive approach. The combination of workbooks and geo locations in a honeynet is a very powerful tool for threat intelligence and incident response. 
 
 ![Screen Shot 2024-04-15 at 8 40 50 PM](https://github.com/user-attachments/assets/dea8b363-b041-4b89-901d-a43496c474cf)
@@ -97,7 +104,7 @@ This Windows Remote Desktop Protocol (RDP) Threats Workbook shows security threa
 This Network Security Group (NSG) Threats Workbook shows security events where malicious traffic or networks were allowed into our networks and systems. The dashboard shows where the malicious activities originated from across the globe, allowing us to identify sources and patterns, and this in turn helps prioritize remediation efforts.
 
 
-12. The final step is to secure the environment.
+14. The final step is to secure the environment.
     
    a. Go into Network Security Groups and delete the allow any custom inbound security rule.
    
@@ -108,6 +115,6 @@ This Network Security Group (NSG) Threats Workbook shows security events where m
    The NIST SP 800-53 Rev. 5 is a widely recognized and respected security standard published by the National Institute of Standards and Technology (NIST). It provides guidelines for implementing and managing information security controls within an organization. It provides a comprehensive catalog of security and privacy controls for federal information systems and organizations, and is a widely adopted standard for managing information security risks and protecting sensitive data. Benefits include compliance, risk management, and improved security. Organizations that handle sensitive information should consider adopting this standard to improve their overall security posture.
 
 
-13. Throughout this project, I documented the security posture and metrics before and after securing the environment. The notable decline in security events, alerts, incidents, and malicious flows demonstrates the efficacy of the implemented security measures in bolstering the environment's overall security posture. The substantial reduction in allowed malicious flows implies that the environment is better equipped to defend against potential threats, while the decrease in blocked flows may be attributed to either the successful prevention of threats or a decrease in the number of attack attempts. 
+15. Throughout this project, I documented the security posture and metrics before and after securing the environment. The notable decline in security events, alerts, incidents, and malicious flows demonstrates the efficacy of the implemented security measures in bolstering the environment's overall security posture. The substantial reduction in allowed malicious flows implies that the environment is better equipped to defend against potential threats, while the decrease in blocked flows may be attributed to either the successful prevention of threats or a decrease in the number of attack attempts. 
 <img width="414" alt="Screen Shot 2024-07-25 at 6 04 48 PM" src="https://github.com/user-attachments/assets/a31c46ca-98bb-434d-9a39-69b0db1c28d7">
 
