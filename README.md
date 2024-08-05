@@ -116,5 +116,6 @@ This Network Security Group (NSG) Threats Workbook shows security events where m
 
 
 15. Throughout this project, I documented the security posture and metrics before and after securing the environment. The metrics were gathered through the use of KQL queries. The notable decline in security events, alerts, incidents, and malicious flows demonstrates the efficacy of the implemented security measures in bolstering the environment's overall security posture. The substantial reduction in allowed malicious flows implies that the environment is better equipped to defend against potential threats, while the decrease in blocked flows may be attributed to either the successful prevention of threats or a decrease in the number of attack attempts. 
-<img width="414" alt="Screen Shot 2024-07-25 at 6 04 48 PM" src="https://github.com/user-attachments/assets/a31c46ca-98bb-434d-9a39-69b0db1c28d7">
+
+<img width="416" alt="Screen Shot 2024-08-05 at 5 39 05 PM" src="https://github.com/user-attachments/assets/6192529a-71a8-43b8-906b-ed2e71a8f67a">
 
